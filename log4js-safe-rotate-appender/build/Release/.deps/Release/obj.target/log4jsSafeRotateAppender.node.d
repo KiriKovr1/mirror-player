@@ -1,0 +1,1 @@
+cmd_Release/obj.target/log4jsSafeRotateAppender.node := g++ -o Release/obj.target/log4jsSafeRotateAppender.node -shared -pthread -rdynamic -m64  -Wl,-soname=log4jsSafeRotateAppender.node -Wl,--start-group Release/obj.target/log4jsSafeRotateAppender/aaappender.o -Wl,--end-group 

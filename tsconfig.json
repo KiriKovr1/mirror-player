@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["ES6", "ES5", "DOM"],
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "jsx": "react",
+    "noEmit": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "isolatedModules": false,
+    "watch": true,
+  },
+}

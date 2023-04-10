@@ -1,0 +1,14 @@
+{
+    "name": "log4js-safe-rotate-appender",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "ISC",
+    "gypfile": true,
+    "scripts": {
+        "build": "node-gyp configure build --release --verbose",
+        "clean": "node-gyp clean"
+    },
+    "devDependencies": {
+        "node-gyp": "^8.1.0"
+    }
+}

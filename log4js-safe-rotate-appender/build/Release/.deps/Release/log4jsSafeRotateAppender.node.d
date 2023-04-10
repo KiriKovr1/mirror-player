@@ -1,0 +1,1 @@
+cmd_Release/log4jsSafeRotateAppender.node := ln -f "Release/obj.target/log4jsSafeRotateAppender.node" "Release/log4jsSafeRotateAppender.node" 2>/dev/null || (rm -rf "Release/log4jsSafeRotateAppender.node" && cp -af "Release/obj.target/log4jsSafeRotateAppender.node" "Release/log4jsSafeRotateAppender.node")

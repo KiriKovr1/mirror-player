@@ -1,0 +1,16 @@
+version: "2"
+services:
+  faq-service-daemon:
+    restart: always
+    image: registry.office.superkassa.net:5000/faq_service_daemon:latest
+    network_mode: host
+    volumes:
+      - ./logs:/app/logs
+      - ./config-local.json:/app/config-local.json
+    entrypoint:
+      - /usr/bin/node
+      - /app/index.js
+    environment:
+      - FAQ_SERVICE_DAEMON_CONFIG=/app/config-local.json
+      - NODE_ENV=production
+

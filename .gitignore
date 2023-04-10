@@ -1,0 +1,22 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules
+
+# Yarn lock
+yarn.lock
+
+# Local config
+config-local.json
+
+# Build project
+dist/
+
+# IDE folders
+.idea/
+.vscode/
+
+# Draft files
+draft.*
